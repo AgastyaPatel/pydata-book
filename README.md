@@ -1,3 +1,26 @@
+# About
+This repo is used to host the playground for python data analysis libraries
+
+I'll be following Wes Mckinney's 3rd edition - Python for Data Analysis; which desals with data wrangling and analysis using standard python ML libraries.
+Book deals with Tabular data in different forms, multi - dimm arrays, sql tables and time series 
+Libraries used:
+- NumPy
+- pandas
+- matplotlib
+- IPython and Jupyter
+- SciPy
+- scikit-learn
+- statsmodel
+
+## Env Setup
+```py
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+conda create -y -n pydata-book python=3.10
+conda activate pydata-book
+```
+
 # Python for Data Analysis, 3rd Edition
 
 Materials and IPython notebooks for "Python for Data Analysis, 3rd
